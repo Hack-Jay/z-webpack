@@ -17,10 +17,9 @@ module.exports = class Compiler {
         this.break()
         this.calculateRoutes('Async', 'hook', 'demo')
     }
-
     accelerate(speed) {
         this.hooks.accelerate.call(speed);
-    }
+    } 
     break() {
         this.hooks.brake.call();
     }
